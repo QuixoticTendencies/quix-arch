@@ -22,7 +22,7 @@ mkfs.ext4 /PATH/TO/PARTITION
 mount /PATH/TO/PARTITION /mnt
 ```
 
-If you made a swap partition:
+4.5 If you made a swap partition:
 ```bash
 mkswap /PATH/TO/PARTITION
 swapon /PATH/TO/PARTITION
