@@ -17,12 +17,15 @@ Replace `United States` with your own location if necessary.
 4. Set up target drive.
 ```bash
 cfdisk /PATH/TO/DEVICE
+...
+mkfs.ext4 /PATH/TO/PARTITION
+mount /PATH/TO/PARTITION /mnt
 ```
-Example: /dev/sda
-Partition target drive as is appropriate, then mount your partition(s). For new/practicing users on a virtual machine, the following sequence is recommended: `DOS` => `[New]` => `Partition size: Default` => `[primary]` => `[Bootable]` =>  `[Write]` => `yes` => `[Quit]`
+
+If you made a swap partition:
 ```bash
-mkfs.ext4 /dev/sda1
-mount /dev/sda1 /mnt
+mkswap /PATH/TO/PARTITION
+swapon /PATH/TO/PARTITION
 ```
 
 5. Install base system.
