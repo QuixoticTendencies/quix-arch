@@ -52,7 +52,7 @@ hwclock --systohw --utc
 echo HOSTNAME > /etc/hostname
 nano /etc/hosts
 ```
-![arch_hosts](https://quixotictendencies.github.com/quix-arch/arch_install_hosts.png)
+![arch_hosts](https://quixotictendencies.github.com/quix-arch/arch_hosts.png)
 
 10. Set root password.
 ```bash
