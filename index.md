@@ -4,7 +4,9 @@
 ![arch_install_boot_menu](https://quixotictendencies.github.com/quix-arch/arch_install_boot_menu.png)
 ![arch_install_login_shell](https://quixotictendencies.github.com/quix-arch/arch_install_login_shell.png)
 2. Update repositories.
-    # pacman -Syy
+```
+# pacman -Syy
+```
 3. Install reflector and run it to sort mirrorlist.
 4. Set up target drive.
 5. Install base system.
