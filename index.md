@@ -1,6 +1,7 @@
 ## Installing Arch Linux
 
 1. Boot from media into installation shell.
+![arch_install_boot_menu](https://quixotictendencies.github.com/quix-arch/arch_install_boot_menu.png)
 2. Update repositories.
 3. Install reflector and run it to sort mirrorlist.
 4. Set up target drive.
