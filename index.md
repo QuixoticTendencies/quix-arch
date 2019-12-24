@@ -47,7 +47,7 @@ nano /etc/locale.gen
 ```bash
 locale-gen
 ln -sf /usr/share/zoneinfo/CONTINENT/ZONE /etc/localtime
-hwclock --systohw --utc
+hwclock --systohc --utc
 ```
 
 9. Set hostname and a basic hosts file.
